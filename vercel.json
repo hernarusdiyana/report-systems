@@ -1,7 +1,6 @@
 {
     "builds": [{
         "src": "report_features/wsgi.py",
-        "use": "@vercell/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.12.3"}
     }],
     "routes": [
